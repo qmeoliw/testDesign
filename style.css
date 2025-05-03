@@ -30,13 +30,46 @@ body, a{
 .shoes{
     height: 500px;
     width: 400px;
+margin-left: 200px;
 }
 .text{
     flex: 1;
     text-align: left;
 }
-.main-img{
-    flex: 1;
-    max-width: 900px;
-    
+.text h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+.text p{
+    font-size: 64px;
+}
+
+#cover{
+    display: flex;
+    padding: 20px;
+    background-image: url(./main/main.png);
+    background-size: 700px 1000px;
+    background-repeat: no-repeat;
+    background-position: right center;
+display: flex;
+flex: 1;
+text-align: right;
+}
+#about-us{
+    margin: 0;
+    padding: 20px;
+}
+.about-us_container{
+
+}
+.about-us_container h2{
+    margin: 0 auto;
+font-size: 96px;
+display: flex;
+justify-content: center;
+}
+.content-img{
+    width: 400px;
+    height: 670px;
+    padding: 20px;
 }
