@@ -16,10 +16,27 @@ nav{
     gap: 60px;
 }
 nav a{
-    font-size: 64px;
+    font-size: 48px;
 }
 body, a{
     text-decoration: none;
     font-family: "Neucha", cursive;
     color: black;
+}
+.main{
+    width: 90px;
+    height: 90px;
+}
+.shoes{
+    height: 500px;
+    width: 400px;
+}
+.text{
+    flex: 1;
+    text-align: left;
+}
+.main-img{
+    flex: 1;
+    max-width: 900px;
+    
 }
