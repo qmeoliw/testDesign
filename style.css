@@ -1,75 +1,158 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
-.container{
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+.container {
+  width: auto;
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  gap: 60px;
+}
+nav a {
+  font-size: 48px;
+}
+body,
+a {
+  text-decoration: none;
+  font-family: "Neucha", cursive;
+  color: black;
+}
+.main {
+  width: 90px;
+  height: 90px;
+}
+.shoes {
+  height: 500px;
+  width: 400px;
+  margin-left: 200px;
+}
+.text {
+  flex: 1;
+  text-align: left;
+}
+.text h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+.text p {
+  font-size: 64px;
+}
+
+#cover {
+  display: flex;
+  padding: 20px;
+  background-image: url(./main/main.png);
+  background-size: 700px 1000px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  display: flex;
+  flex: 1;
+  text-align: right;
+}
+
+.about-us-section {
+  padding: 40px 0;
+}
+
+.container_description {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-us-section h2 {
+  text-align: left;
+  font-size: 90px;
+  margin: 0;
+}
+
+.about-us-content {
+  display: flex;
+  gap: 30px;
+}
+
+.about-image-container {
+  flex: 1;
+  padding: 5px;
+}
+
+.about-image-container img {
+  height: 770px;
+  width: 500px;
+}
+
+.about-text h3 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.about-text p {
+  font-size: 40px;
+  margin: 0;
+  padding: 10px;
+}
+
+.image-and-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 170px;
+}
+
+.about-image-small {
+  width: 260px;
+  height: 400px;
+
+  padding: 5px;
+}
+
+.about-list {
+  text-align: left;
+}
+
+.about-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-list li {
+  font-size: 50px;
+}
+
+#picture {
+  display: flex;
+  align-items: center;
+}
+.popular_img{
+    background-image: url(./main/popular.png);
     width: auto;
-    margin: 0;
-
-}
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
+    border-radius: 20px;
+    height: 96px;
     
 }
-nav{
+.popular p{
+    font-size: 80px;
+    color: white;
     display: flex;
-    gap: 60px;
-}
-nav a{
-    font-size: 48px;
-}
-body, a{
-    text-decoration: none;
-    font-family: "Neucha", cursive;
-    color: black;
-}
-.main{
-    width: 90px;
-    height: 90px;
-}
-.shoes{
-    height: 500px;
-    width: 400px;
-margin-left: 200px;
-}
-.text{
-    flex: 1;
-    text-align: left;
-}
-.text h1{
-    font-size: 64px;
-    font-weight: 500;
-}
-.text p{
-    font-size: 64px;
-}
-
-#cover{
-    display: flex;
-    padding: 20px;
-    background-image: url(./main/main.png);
-    background-size: 700px 1000px;
-    background-repeat: no-repeat;
-    background-position: right center;
-display: flex;
-flex: 1;
-text-align: right;
-}
-#about-us{
+    justify-content: center;
     margin: 0;
-    padding: 20px;
 }
-.about-us_container{
-
-}
-.about-us_container h2{
-    margin: 0 auto;
-font-size: 96px;
+.first_img{
 display: flex;
 justify-content: center;
+margin: 10px;
+
+    
 }
-.content-img{
+.first_img img{
     width: 400px;
-    height: 670px;
-    padding: 20px;
+    height: 550px;
+    padding: 0;
+    
 }
