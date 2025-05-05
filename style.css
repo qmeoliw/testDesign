@@ -8,6 +8,10 @@ header {
   align-items: center;
   justify-content: space-around;
 }
+.container{
+  margin: 0;
+  padding: 0;
+}
 nav {
   display: flex;
   gap: 60px;
@@ -139,9 +143,11 @@ a {
 .popular p{
     font-size: 80px;
     color: white;
-    display: flex;
-    justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
     margin: 0;
+    padding: 0;
 }
 .first_img{
 display: flex;
@@ -210,4 +216,46 @@ text-align: right;
 .contact{
   margin: 70px 0px 0px 220px;
 text-align: left;
+}
+.box{
+  border: 2px;
+  width: 400px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 20px;
+}
+.option{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+.option p{
+  font-size: 60px;
+  text-align: center;
+}
+.tg{
+  width:1150px ;
+  height: 140px;
+  background-color: #838284;
+  border-radius: 20px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tg p{
+  font-size: 64px;
+  text-align: center;
+}
+.aaa{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+footer{
+  background-image: url(./main/footer.png);
+  width: auto;
+  height: 460px;
+
 }
