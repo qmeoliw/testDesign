@@ -41,9 +41,10 @@ a {
     filter: blur(10px);
     z-index: -1; 
   }
+
 .authorization{
     background-color: #E7E0D6;
-    height: 700px;
+    height: 1000px;
     width: 1000px;
     border-radius: 30px;
     margin: 70px;
@@ -82,7 +83,8 @@ a {
     gap: 30px;
 }
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="text"]{
     height: 70px;
     width: 700px;
     border-radius: 15px;
@@ -120,17 +122,6 @@ label{
 .forgot-password a{
     color: #5C1934;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

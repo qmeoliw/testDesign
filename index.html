@@ -10,16 +10,19 @@
 </head>
 <body>
     <header id="main" class="container">
+        <div class="background-image"></div>
         <a href="catalog.html"><img src="./main/logo.svg" alt=""></a>
         <nav>
-            <a href="">о нас</a>
-            <a href="">популярное</a>
-            <a href="">доставка</a>
-            <a href="">контакты</a>
+            <a href="#about-us-section">о нас</a>
+            <a href="#popular">популярное</a>
+            <a href="#delivery">доставка</a>
+            <a href="#contacts">контакты</a>
             <a href="authorization.html"><img class="main" src="./main/Customer.png" alt=""></a>
             <a href=""><img class="main" src="./main/Shopping Bag.png" alt=""></a>
         </nav>
+        
     </header>
+    
     <main>
         <section id="cover">
             <div class="text">
@@ -30,7 +33,7 @@
             </div>
             <div class="main-img"></div>
         </section>
-        <section class="about-us-section">
+        <section class="about-us-section" id="about-us-section">
             <div class="container_description">
                 <h2>О НАС</h2>
                 <div class="about-us-content">
@@ -57,7 +60,7 @@
                 </div>
             </div>
         </section>
-<section class="popular">
+<section class="popular" id="popular">
     <div class="popular_img"><p> ПОПУЛЯРНОЕ</p></div>
 <div class="first_img">
     <img src="./main/first.png" alt="">
@@ -102,20 +105,20 @@
 </main>
 <footer >
 <div class="footer_description">
-    <a href="">
+    <a href="#about-us-section">
         <p>о нас</p>
     </a>
-    <a href="">
+    <a href="#popular">
         <p>популярное</p>
     </a>
-    <a href="">
+    <a href="#delivery">
         <p>доставка</p>
     </a>
-    <a href="">
+    <a href="#contacts">
         <p>контакты</p>
     </a>
 </div>
-<div class="footer_logo"><a href=""><img src="./main/logo.svg" alt=""></a></div>
+<div class="footer_logo"><a href="#cover"><img src="./main/logo.svg" alt=""></a></div>
 <div class="social">
     <a href="">
         <p>WhatsApp</p>
