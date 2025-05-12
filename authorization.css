@@ -90,7 +90,9 @@ input[type="password"] {
     background-color: #454545;
     outline: none;
     padding: 0px 0px 0px 15px ;
-    font-size: 24px;
+    font-family:"Neucha", cursive; 
+    color: white;
+    font-size: 30px;
 }
 label{
     display: block;
